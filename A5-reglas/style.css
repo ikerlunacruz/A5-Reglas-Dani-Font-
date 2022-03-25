@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#header {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(./img/Imagen1.png) ;
+    color: white;
+}
+
+#header h1 {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0;
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+#encabezado {
+    background-image:url(./img/catedral-barcelona-fachada.jpg);
+    color: green;
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+ul {
+    font-size: 130%;
+}
+
+.a {
+    color: red;
+}
+
+.b {
+    color: blue;
+}
+
+h6 {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 150%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 10%;
+    padding-left: 50%;
+}
+
+#siete {
+    text-decoration: underline;
+}
+
+@media only screen  and (max-width: 800px) {
+    img {
+        width: 50%;
+    }
+
+    h6 {
+        font-size: 75%;
+    }
+
+    #header h1 {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+}
